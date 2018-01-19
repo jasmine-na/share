@@ -41,12 +41,12 @@
 "假如再给你一次机会，你会选择哪个行业？",
 "你觉得生命中最重要的一个是谁，为什么？",
 "说出爸爸或妈妈最喜欢的一样东西。"]
-        var kaiguan=1;
+      /*  var kaiguan=1;*/
     	$("#share").click(function(){
-    		  if(kaiguan){
-    		      $("#shareCon").show().html(shareData[GetRandomNum(0,shareData.length-1)]);
-    		      kaiguan=0;
-    		  }
+    		 /* if(kaiguan){*/
+    		      $("#shareCon").fadeIn().html(shareData[GetRandomNum(0,shareData.length-1)]);
+    		   /*   kaiguan=0;
+    		  }*/
     	})
     	function GetRandomNum(Min,Max)
 		{   
