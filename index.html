@@ -43,7 +43,7 @@
 "说出爸爸或妈妈最喜欢的一样东西。"]
 
     	$("#share").click(function(){
-    		  $("#shareCon").html(shareData[GetRandomNum(0,shareData.length-1)]);
+    		  $("#shareCon").show().html(shareData[GetRandomNum(0,shareData.length-1)]);
     	})
     	function GetRandomNum(Min,Max)
 		{   
@@ -57,6 +57,6 @@
 </head>
 <body>
   <button type="button " class="bg-success share" id="share">真心话大分享</button>
-  <div id="shareCon"></div>
+  <div id="shareCon" class="share-con"></div>
 </body>
 </html>

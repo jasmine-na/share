@@ -42,4 +42,7 @@ a{color: #333}
 .cast-list {width: 80px;float: left;}
 .cast-list p {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
 .flex-box-content p{margin: 3px 0}
-.share{font-size: 1rem;padding: 0.5rem;color: #fff;border:none;border-radius: 0.25rem;margin-bottom: 1rem}
+.share{font-size: 1.25rem;padding: 0.5rem;color: #fff;border:none;border-radius: 0.25rem;margin-bottom: 2rem}
+.share-con{font-size: 2rem;color: #333;color: #333;border-radius: 0.25rem;
+    background-color: #fcf8e3;padding:2rem 0.5rem;
+    border-color: #faf2cc;display: none;}
